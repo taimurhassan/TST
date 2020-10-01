@@ -1,1 +1,1 @@
-# cont-instance-seg
+# Trainable Structure Tensor
