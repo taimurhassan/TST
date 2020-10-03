@@ -45,3 +45,16 @@ Each dataset contains the ground truths either in mat files, txt files or in xml
 The additional results of the TST framework are presented in the '…\results' folder. Please feel free to email us if you require the trained instances. 
 
 ## Citation
+If you use TST (or any part of this code in your research), please cite the following paper:
+
+```
+@inproceedings{tst,
+  title   = {Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion},
+  author  = {Taimur Hassan and Samet Ak\c{c}ay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
+  note = {Accepted in Asian Conference on Computer Vision (ACCV)},
+  year = {2020}
+}
+```
+
+## Contact
+If you have any query, please feel free to contact us at: taimur.hassan@ku.ac.ae.
