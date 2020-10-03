@@ -4,13 +4,13 @@ Accepted in ACCV-2020 [Paper](https://arxiv.org/abs/2009.13158), [Spotlight Pres
 ## Introduction
 This repository contains the implementation of trainable structure tensors (TST), a single-staged contour instance segmentation strategy to detect the extremely cluttered baggage threats regardless of the scanner specifications. 
 
-[TST](/images/tst.jpg)
+![TST](/images/tst.jpg)
 System Block Diagram
 
 ## Installation
 To run TST, please download and install Anaconda (also install MATLAB R2020a with deep learning, image processing and computer vision toolboxes). Afterward, please import the ‘environment.yml’ or alternatively install following packages: 
 1. Python 3.7.4 
-2. Tensorflow 2.3.0 (CUDA compatible GPU needed for GPU training) 
+2. Tensorflow 2.2.0 (CUDA compatible GPU needed for GPU training) 
 3. Keras 2.3.1 or above 
 4. OpenCV 4.2 
 5. Imgaug 0.2.9 or above 
