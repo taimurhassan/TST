@@ -4,7 +4,7 @@
 ## Introduction
 This repository contains the implementation of trainable structure tensors (TST), a single-staged contour instance segmentation strategy to detect the extremely cluttered baggage threats regardless of the scanner specifications. 
 
-![TST](/images/tst.png)
+![TST](/images/Picture1.jpg)
 <p align="center">System Block Diagram</p>
 
 ## Installation
