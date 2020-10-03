@@ -1,5 +1,5 @@
 # Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion
-Accepted in ACCV-2020 [Paper](https://arxiv.org/abs/2009.13158), [Spotlight Presentation]()
+[Paper](https://arxiv.org/abs/2009.13158), [Spotlight Presentation](https://youtu.be/T3m57pNdrqE)
 
 ## Introduction
 This repository contains the implementation of trainable structure tensors (TST), a single-staged contour instance segmentation strategy to detect the extremely cluttered baggage threats regardless of the scanner specifications. 
@@ -50,7 +50,7 @@ If you use TST (or any part of this code in your research), please cite the foll
 ```
 @inproceedings{tst,
   title   = {Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion},
-  author  = {Taimur Hassan and Samet Ak\c{c}ay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
+  author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
   note = {Accepted in Asian Conference on Computer Vision (ACCV)},
   year = {2020}
 }
