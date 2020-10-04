@@ -14,6 +14,7 @@ To run TST, please download and install Anaconda (also install MATLAB R2020a wit
 4. OpenCV 4.2 
 5. Imgaug 0.2.9 or above 
 6. Tqdm 
+
 Both Linux and Windows OS are supported.
 
 ## Datasets
