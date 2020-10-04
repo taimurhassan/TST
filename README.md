@@ -26,6 +26,7 @@ The X-ray datasets can be downloaded from the following URLs:
 Each dataset contains the ground truths either in mat files, txt files or in xml files. TST framework requires annotations to be in the mask form. Therefore, to parse each dataset annotations, we have provided their respective parser in the ‘…\utils’ folder. Please follow the same steps as mentioned below to prepare the training and testing data. These steps are also applicable for any custom dataset.
 
 ## Dataset Preparation
+
 1. Download the desired dataset and update the dataset paths in ‘…\mst.m’ file.
 2. Run the ‘…\mst.m’ file to generate the tensor representation of the input scans (this step is required for both train and test scans). 
 3. Put the training tensors (obtained through step 2) in the '…\trainingDataset\train_images' folder. 
@@ -35,6 +36,51 @@ Each dataset contains the ground truths either in mat files, txt files or in xml
 7. Please note here that these images and annotations should have same name and extension (preferably png). 
 8. Put test images in '…\testingDataset\test_images' folder and their annotations in '…\testingDataset\test_annotations' folder. 
 9. The test images should also be obtained from the step 2 whereas the folder '…\testingDataset\original' should contain the respective original images (the final detection results are overlaid on these images). 
+10. Directory Structure:
+```
+├── trainingDataset
+│   ├── train_images
+│   │   └── tr_image_1.png
+│   │   └── tr_image_2.png
+│   │   ...
+│   │   └── tr_image_n.png
+│   ├── train_annotations
+│   │   └── tr_image_1.png
+│   │   └── tr_image_2.png
+│   │   ...
+│   │   └── tr_image_n.png
+│   ├── val_images
+│   │   └── va_image_1.png
+│   │   └── va_image_2.png
+│   │   ...
+│   │   └── va_image_m.png
+│   ├── val_annotations
+│   │   └── va_image_1.png
+│   │   └── va_image_2.png
+│   │   ...
+│   │   └── va_image_m.png
+├── testingDataset
+│   ├── original
+│   │   └── o_image_1.png
+│   │   └── o_image_2.png
+│   │   ...
+│   │   └── o_image_k.png
+│   ├── test_images
+│   │   └── te_image_1.png
+│   │   └── te_image_2.png
+│   │   ...
+│   │   └── te_image_k.png
+│   ├── test_annotations
+│   │   └── te_image_1.png
+│   │   └── te_image_2.png
+│   │   ...
+│   │   └── te_image_k.png
+│   ├── segmentation_results
+│   │   └── te_image_1.png
+│   │   └── te_image_2.png
+│   │   ...
+│   │   └── te_image_k.png
+```
 
 ## Training and Testing
 1. Use '…\trainer.py' file to train the backbone network provided in the '…\codebase\models' folder. The training parameters can be configured in this file as well. Once the training is completed, the segmentation results are saved in the '…\testingDataset\segmentation_results' folder. These results are used by the 'instanceDetector.m' script in the next step for bounding box and mask generation. 
