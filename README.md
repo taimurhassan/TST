@@ -36,7 +36,7 @@ Each dataset contains the ground truths either in mat files, txt files or in xml
 7. Please note here that these images and annotations should have same name and extension (preferably png). 
 8. Put test images in '…\testingDataset\test_images' folder and their annotations in '…\testingDataset\test_annotations' folder. 
 9. The test images should also be obtained from the step 2 whereas the folder '…\testingDataset\original' should contain the respective original images (the final detection results are overlaid on these images). 
-10. Directory Structure:
+10. Dataset directory structure is given below:
 ```
 ├── trainingDataset
 │   ├── train_images
