@@ -97,7 +97,7 @@ If you use TST (or any part of this code in your research), please cite the foll
 @inproceedings{tst,
   title   = {Trainable Structure Tensors for Autonomous Baggage Threat Detection Under Extreme Occlusion},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  note = {Accepted in Asian Conference on Computer Vision (ACCV)},
+  note = {Asian Conference on Computer Vision (ACCV)},
   year = {2020}
 }
 ```
